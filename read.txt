@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() // here comment will remove
+{
+  int b,c;
+  printf("enter the numbers: \n\n");  /*here comment will not remove*/
+  scanf("%d %d",&b,&c);
+  int a=b+c;  /* Here 'a' will work for addition of b & c
+                let's input some digit*/
+  printf("total is: \n\n");
+  printf("%d",a);  //will show the answer.
+  return 0; 
+}

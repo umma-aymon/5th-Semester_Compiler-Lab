@@ -1,0 +1,17 @@
+#include <stdio.h>
+/* here it is multiple
+comment line*/
+int main() // here comment will not remove
+{
+  int b,c;
+  printf("enter the numbers: \n\n");  /*here comment will remove*/
+  scanf("%d %d",&b,&c);
+  int a=b/c; 
+  /* some
+  * more
+  * comments
+  */
+  printf("total is: \n\n");
+  printf("%d",a);  //will show the answer.
+  return 0; 
+}
